@@ -1,7 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/411864557/2021.2)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 # Reporting for Angular - Use Custom UI Elements to Specify Parameter Values
 
 This example demonstrates how to do the following:
@@ -37,3 +33,4 @@ Download the project and do the following:
 
 ## More Examples
 
+- [Reporting for Angular - Handle the ParametersInitialized event](https://github.com/DevExpress-Examples/angular-reporting-handle-parameters-initialized-event)
