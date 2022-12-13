@@ -6,7 +6,6 @@ import { DxReportViewerComponent } from 'devexpress-reporting-angular';
     encapsulation: ViewEncapsulation.None,
     templateUrl: './report-viewer.html',
     styleUrls: [
-        "../../../node_modules/jquery-ui/themes/base/all.css",
         "../../../node_modules/devextreme/dist/css/dx.common.css",
         "../../../node_modules/devextreme/dist/css/dx.light.css",
         "../../../node_modules/@devexpress/analytics-core/dist/css/dx-analytics.common.css",
@@ -16,8 +15,10 @@ import { DxReportViewerComponent } from 'devexpress-reporting-angular';
 })
 
 export class ReportViewerComponent {
-    @ViewChild(DxReportViewerComponent, { static: false }) viewer: DxReportViewerComponent;
-    @ViewChild('paramValue', { static: false }) public paramValue: ElementRef;
+    @ViewChild(DxReportViewerComponent, { static: false })
+    viewer!: DxReportViewerComponent;
+    @ViewChild('paramValue', { static: false })
+    public paramValue!: ElementRef;
     reportUrl: string = "XtraReport1";
     invokeAction: string = '/DXXRDV';
 
