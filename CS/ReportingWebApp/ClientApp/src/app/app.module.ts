@@ -5,27 +5,27 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { NavMenuComponent } from './nav.menu/nav-menu.component';
+import { NavMenuComponent } from './navmenu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { DxReportViewerModule, DxReportDesignerModule } from 'devexpress-reporting-angular';
 import { ReportViewerComponent } from './reportviewer/report-viewer';
- 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
     HomeComponent,
-    ReportViewerComponent,
-  ],
+    ReportViewerComponent
+    ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
     DxReportViewerModule,
+    DxReportDesignerModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'viewer', component: ReportViewerComponent }
+      { path: 'DocumentViewer', component: ReportViewerComponent }
     ])
   ],
   providers: [],
