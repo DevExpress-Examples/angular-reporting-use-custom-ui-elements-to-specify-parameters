@@ -12,16 +12,6 @@ This example demonstrates how to do the following:
 
 ![](Images/reporting-angular-specify-parameter-values.png)
 
-<!-- default file list -->
-
-## Files to Look At
-
-- [report-viewer.html](CS/ReportingWebApp/ClientApp/src/app/reportviewer/report-viewer.html)
-- [report-viewer.ts](CS/ReportingWebApp/ClientApp/src/app/reportviewer/report-viewer.ts)
-- [CustomReportProvider.cs](CS/ReportingWebApp/Services/CustomReportProvider.cs)
-
-<!-- default file list end -->
-
 ## How to Run the Example
 
 Download the project and do the following:
@@ -30,6 +20,12 @@ Download the project and do the following:
 2. Build and run the project.
 3. Navigate to the page that contains the document viewer.
 4. Enter a parameter value in the editor and click *Submit*.
+
+## Files to Review
+
+- [report-viewer.html](CS/ReportingWebApp/ClientApp/src/app/reportviewer/report-viewer.html)
+- [report-viewer.ts](CS/ReportingWebApp/ClientApp/src/app/reportviewer/report-viewer.ts)
+- [CustomReportProvider.cs](CS/ReportingWebApp/Services/CustomReportProvider.cs)
 
 ## Documentation
 
