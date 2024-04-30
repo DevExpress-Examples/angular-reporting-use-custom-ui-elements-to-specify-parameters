@@ -24,9 +24,9 @@ Download the project and do the following:
 
 ## Files to Review
 
-- [report-viewer.html](CS/ReportingWebApp/ClientApp/src/app/reportviewer/report-viewer.html)
-- [report-viewer.ts](CS/ReportingWebApp/ClientApp/src/app/reportviewer/report-viewer.ts)
-- [CustomReportProvider.cs](CS/ReportingWebApp/Services/CustomReportProvider.cs)
+- [report-viewer.html](ReportingWebApp/ClientApp/src/app/reportviewer/report-viewer.html)
+- [report-viewer.ts](ReportingWebApp/ClientApp/src/app/reportviewer/report-viewer.ts)
+- [CustomReportProvider.cs](ReportingWebApp/Services/CustomReportProvider.cs)
 
 ## Documentation
 
