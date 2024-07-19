@@ -6,7 +6,6 @@ import { DxReportViewerComponent } from 'devexpress-reporting-angular';
     encapsulation: ViewEncapsulation.None,
     templateUrl: './report-viewer.html',
     styleUrls: [
-        "../../../node_modules/devextreme/dist/css/dx.common.css",
         "../../../node_modules/devextreme/dist/css/dx.light.css",
         "../../../node_modules/@devexpress/analytics-core/dist/css/dx-analytics.common.css",
         "../../../node_modules/@devexpress/analytics-core/dist/css/dx-analytics.light.css",
