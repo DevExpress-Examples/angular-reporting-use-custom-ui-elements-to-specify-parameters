@@ -14,20 +14,28 @@ This example demonstrates how to do the following:
 
 ![](Images/reporting-angular-specify-parameter-values.png)
 
-## How to Run the Example
+## Run the Project
 
-Download the project and do the following:
+Navigate to the *ReportingWebApp/ReportingWebApp.Server* folder and use the following command to restore dependencies and run the application:
 
-1. Update NuGet packages.
-2. Build and run the project.
-3. Navigate to the page that contains the document viewer.
-4. Enter a parameter value in the editor and click *Submit*.
+```console
+cd ReportingWebApp/ReportingWebApp.Server
+dotnet run
+```
+
+Two command prompts appear:
+
+- The ASP.NET Core API project running
+- The Angular CLI running the ng start command
+
+Open your browser and navigate to the URL specified in the command output to see the result.
+
 
 ## Files to Review
 
-- [report-viewer.html](ReportingWebApp/ClientApp/src/app/reportviewer/report-viewer.html)
-- [report-viewer.ts](ReportingWebApp/ClientApp/src/app/reportviewer/report-viewer.ts)
-- [CustomReportProvider.cs](ReportingWebApp/Services/CustomReportProvider.cs)
+- [report-viewer.html](ReportingWebApp/ReportingWebApp.Client/src/app/reportviewer/report-viewer.html)
+- [report-viewer.ts](ReportingWebApp/ReportingWebApp.Client/src/app/reportviewer/report-viewer.ts)
+- [CustomReportProvider.cs](ReportingWebApp/ReportingWebApp.Server/Services/CustomReportProvider.cs)
 
 ## Documentation
 
@@ -36,6 +44,8 @@ Download the project and do the following:
 ## More Examples
 
 - [Reporting for Angular - Handle the ParametersInitialized event](https://github.com/DevExpress-Examples/angular-reporting-handle-parameters-initialized-event)
+- [Reporting for Angular - Pass Parameters from the Angular Client to a Report](https://github.com/DevExpress-Examples/reporting-angular-pass-parameters)
+
 <!-- feedback -->
 ## Does This Example Address Your Development Requirements/Objectives?
 
